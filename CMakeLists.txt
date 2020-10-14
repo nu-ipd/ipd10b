@@ -27,3 +27,6 @@ add_c_program(strip_concat
     src/heap_string.c
     src/ptr_string.c
     src/read_line.c)
+
+add_c_test_program(ipd10b-2
+    exercise/ipd10b-2.c)
